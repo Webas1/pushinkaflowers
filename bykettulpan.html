@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Цветочный магазин</title>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic|Playfair+Display:400,700&subset=latin,cyrillic">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+  <link href="bykets/stylebykets.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" type="text/css" href="font/flaticon.css">
+  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=cdHnydBRKQ6ahO22_9_Yb0e9x4MxRQraPavj9vKBubkxZZ4BNCJ-UjEIgeeU9Y66AKak_63W2--4TeTf3i6ovh8LavZo-Wsam7lLtW7uKrTmNEoWFRM7i4OvQidw9j57H3L_0Si5WXFkYMfRAyJCZg" charset="UTF-8">
+  </script>
+  <script type="text/javascript" src="script/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+  <header>
+   <nav class="container">
+      <a class="ava" href=""><span>PUSHINKA_FLOWERS</span></a>
+      <div class="againmenu"><span></span></div>
+      <ul id="menu_all">
+        <li id="mainbut"><a  href=""><span class="flaticon-null-1" > Главная  </span></a></li>
+        <li class="byket"><a class="buttom" href="byket.html"><span class="flaticon-tulip"> Букеты  </span></a>
+          <ul class="podmenu">
+            <li><a href=""> Авторские букеты </a></li>
+            <li><a href="byketrose.html">Мир роз</a></li>
+            <li><a href="bykettulpan.html">Мир тюльпанов</a></li>
+            <li><a href="byketlilii.html">Лилии</a></li>
+            <li><a href="byketrynyk.html">Рунукулюс</a></li>
+            <li><a href="byketfrezia.html">Фрезия</a></li>
+            <li><a href="byketgortenzia.html">Гортензия</a></li>
+            <li><a href="byketpion.html">Пионы</a></li>
+            <li><a href="byketkall.html">Каллы</a></li>
+            <li><a href="byketdiantys.html">Диантус</a></li>
+            <li><a href="byketgypsofila.html">Гипсофила</a></li>
+            <li><a href="bykethrizantem.html">Хризантемы</a></li>
+          </ul>
+        </li>
+        <li><a class="buttom" href="presentbox.html"><span class="flaticon-null"> Подарочные боксы  </span></a></li>
+        <li><a class="buttom" href="event.html"><span class="flaticon-birthday"> Оформление мероприятий  </span></a></li>
+        <li><a class="buttom" href="#div7"><span class="flaticon-null-2"> Контакты  </span></a></li>
+        <li id="mark"><a class="buttom" href="market.html"><span class="flaticon-add"> Корзина  </span></a></li>
+
+      </ul>
+    </nav>
+  </header>
+  <section1>
+    <div id="mark" class="pogelanie"><p><h3>Если вы не нашли сорт/цвет нужный вам выбирайте любой и в корзине напишите ваши пожелания</h3></p></div>
+  </section1>
+  <section2 >
+    <div id="con" class="container1">
+      
+          
+          <div class="flowers yellow" data-price="700" >
+            <img class="imgflowers" src="images/byketrose/rosemes.jpg" alt=""><p><h2>Розы Местные</h2></p>
+             <p class="price" >140р/шт</p>
+             <p class="opisanie">Любого цвета и размера</p>
+             <div class="kolvo">
+                  <input class="minus" onclick = "buttonclickmin()"type="button" value="-" id="button_minus">
+                  <input class="str" type="number" data-id="1" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty">
+                  <input class="plus" type="button" value="+" onclick ="buttonclick()" id="button_plus">     
+             </div>
+             <div class="market"><button id="mark1" class="marketbut" data-id="1" value="0"><img class="market1" src="images/byketrose/market.png" alt=""></button></div>
+          </div>
+        
+        
+          <div class="flowers yellow" data-price="600">
+            <img class="imgflowers" src="images/byketrose/rosepinkfloid.jpg" alt=""><p><h2>Розы
+            Пинк Флойд  </h2></p>
+             <p class="price" >250р/шт</p>
+             <p class="opisanie">Любого размера</p>
+             <div class="kolvo">
+                  <input class="minus" onclick = "buttonclickmin2()" type="button" value="-" id="9m">
+                  <input class="str" type="number" data-id="2" step="1" min="1" max="10" id="str2" name="quantity" value="1" title="Qty">
+                  <input class="plus" onclick ="buttonclick2()" type="button" value="+" id="9p">
+                  
+             </div>
+             <div class="market"><button class="marketbut" data-id="2"><img class="market1" src="images/byketrose/market.png" alt=""></button></div>
+          </div>
+        
+        
+          <div class="flowers red" data-price="10">
+            <img class="imgflowers" src="images/byketrose/rosemond.jpg" alt=""><p><h2>Розы Мондюаль</h2></p>
+             <p class="price" >250р/шт</p>
+             <p class="opisanie">Любого размера</p>
+             <div class="kolvo">
+                  <input class="minus" onclick = "buttonclickmin3()" type="button" value="-" id="10m">
+                  <input class="str" type="number" data-id="3" step="1" min="1" max="10" id="str3" name="quantity" value="1" title="Qty">
+                  <input class="plus" onclick ="buttonclick3()" type="button" value="+" id="10p">
+                  
+             </div>
+             <div class="market"><button class="marketbut" data-id="3"><img class="market1" src="images/byketrose/market.png" alt=""></button></div>
+          </div>
+        
+        
+          <div class="flowers white" data-price="300">
+            <img class="imgflowers" src="images/byketrose/rosefista.jpg" alt=""><p><h2>Розы Фисташковые</h2></p>
+             <p class="price" >250р/шт</p>
+             <p class="opisanie">Любого размера</p>
+             <div class="kolvo">
+                  <input class="minus" onclick = "buttonclickmin4()" type="button" value="-" id="10m">
+                  <input class="str" type="number" data-id="4" step="1" min="1" max="10" id="str4" name="quantity" value="1" title="Qty">
+                  <input class="plus" onclick ="buttonclick4()" type="button" value="+" id="10p">
+                  
+             </div>
+             <div class="market"><button class="marketbut" data-id="4"><img class="market1" src="images/byketrose/market.png" alt=""></button></div>
+          </div>
+        
+      
+      
+        
+          <div class="flowers pink" data-price="15">
+            <img class="imgflowers" src="images/byketrose/roseisperans.jpg" alt=""><p><h2>Розы Эсперанса</h2></p>
+             <p class="price" >250р/шт</p>
+             <p class="opisanie">Любого цвета и размера</p>
+             <div class="kolvo">
+                  <input class="minus" onclick = "buttonclickmin5()" type="button" value="-" id="10m">
+                  <input class="str" type="number" data-id="5" step="1" min="1" max="10" id="str5" name="quantity" value="1" title="Qty">
+                  <input class="plus" onclick ="buttonclick5()" type="button" value="+" id="10p">
+                  
+             </div>
+             <div class="market"><button class="marketbut" data-id="5"><img class="market1" src="images/byketrose/market.png" alt=""></button></div>
+          </div>
+       
+        
+          <div class="flowers white" data-price="300">
+            <img class="imgflowers" src="images/byketrose/roseecsp.jpg" alt=""><p><h2>Розы Эсплорер</h2></p>
+             <p class="price" >250р/шт</p>
+             <p class="opisanie">Любого размера</p>
+             <div class="kolvo">
+                  <input class="minus" onclick = "buttonclickmin6()" type="button" value="-" id="10m">
+                  <input class="str" type="number" data-id="6" step="1" min="1" max="10" id="str6" name="quantity" value="1" title="Qty">
+                  <input class="plus" onclick ="buttonclick6()" type="button" value="+" id="10p">
+                  
+             </div>
+             <div class="market"><button class="marketbut" data-id="6"><img class="market1" src="images/byketrose/market.png" alt=""></button></div>
+          </div>
+        
+        
+          
+          </div>  
+    </div>
+  </section2>
+
+  <footer>
+    <div class="container">
+      <hr/>
+        <div class="footer-col"><span>© Студия флористики PUSHINKA FLOWERS 2020 </span>
+        </div>
+          <a href="">Написать письмо</a>
+      </div>
+     </div>
+
+  </footer>
+  <script src="script/scryptbyketrose.js">
+  </script>
+  <script type="text/javascript"></script>
+</body>
+</html>

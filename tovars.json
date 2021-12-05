@@ -1,0 +1,102 @@
+{
+    "1": {
+        "name": "rose mestnai",
+        "cost": 140,
+        "img": "images/byketrose/rosemes.jpg"
+    },
+    "2": {
+        "name": "rose pinkfloid",
+        "cost": 250,
+        "img": "images/byketrose/rosemespinkjpg.jpg"
+    },
+    "3": {
+        "name": "rose mondeal",
+        "cost": 250,
+        "img": "images/byketrose/rosemond.jpg"
+    },
+    "4": {
+        "name": "Rose Fistashkovaya",
+        "cost": 250,
+        "img": "images/byketrose/rosefista.jpg"
+    },
+    "5": {
+        "name": "rose ecperansa",
+        "cost": 250,
+        "img": "images/byketrose/roseisperans.jpg"
+    },
+    "6": {
+        "name": "rose eksplorer",
+        "cost": 250,
+        "img": "images/byketrose/roseecsp.jpg"
+    },
+    "7": {
+        "name": "lilii white",
+        "cost": 250,
+        "img": "images/byketlilii/liliiwhite.jpg"
+    },
+    "8": {
+        "name": "lilii pink",
+        "cost": 250,
+        "img": "images/byketlilii/liliipink.jpg"
+    },
+    "9": {
+        "name": "lilii yellow",
+        "cost": 250,
+        "img": "images/byketlilii/liliiyellow.jpg"
+    },
+    "10": {
+        "name": "rynynkylis mini",
+        "cost": 100,
+        "img": "images/byketrynykyluc/runukulismini.jpg"
+    },
+    "11": {
+        "name": "rynynkylis max",
+        "cost": 250,
+        "img": "images/bykets/rykyn.jpg"
+    },
+    "12": {
+        "name": "frezia",
+        "cost": 600,
+        "img": "images/bykets/frezia.jpg"
+    },
+    "13": {
+        "name": "pion",
+        "cost": 600,
+        "img": "images/bykets/pion.jpg"
+    },
+    "14": {
+        "name": "gortenzia",
+        "cost": 700,
+        "img": "images/bykets/gortenzia.jpg"
+    },
+    "15": {
+        "name": "kalli",
+        "cost": 150,
+        "img": "images/bykets/kalli.jpg"
+    },
+    "16": {
+        "name": "diantys",
+        "cost": 150,
+        "img": "images/bykets/diantys.jpg"
+    },
+    "17": {
+        "name": "gipsofila",
+        "cost": 130,
+        "img": "images/bykets/kalli.jpg"
+    },
+    "18": {
+        "name": "gipsofila okrashena",
+        "cost": 160,
+        "img": "images/bykets/diantys.jpg"
+    },
+    "19": {
+        "name": "xrizantema vetka",
+        "cost": 150,
+        "img": "images/bykets/xrizantema.jpg"
+    },
+    "20": {
+        "name": "xrizantema shapka",
+        "cost": 160,
+        "img": "images/bykets/diantys.jpg"
+    }
+}

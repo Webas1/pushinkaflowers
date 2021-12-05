@@ -1,0 +1,22 @@
+{
+    "1": {
+        "name": "Коробочка",
+        "cost": 140,
+        "img": "box1.jpg"
+    },
+    "2": {
+        "name": "коробка",
+        "cost": 250,
+        "img": "../../images/boxmain/box/box2.jpg"
+    },
+    "3": {
+        "name": "коробка",
+        "cost": 250,
+        "img": "../../images/boxmain/box/box3.jpg"
+    },
+    "4": {
+        "name": "ррр",
+        "cost": 250,
+        "img": "../../images/boxmain/box/box4.jpg"
+    }
+}
